@@ -179,3 +179,19 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Project-specific
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+.streamlit/secrets.toml
+
+mlruns/
+
+*.duckdb
+*.db
+
+.vscode/
+.idea/
